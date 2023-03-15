@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@joonhocho/typescript-esmodule-library-template",
   "version": "0.0.1",
   "description": "TypeScript ECMAScript Module Library Template",
@@ -37,7 +38,8 @@
     "typescript": "^4.9.5"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
   },
   "sideEffects": false
 }
